@@ -5,7 +5,7 @@ Next.jsとSupabaseを使用し、Dockerによる環境構築を行う
 
 
 
-
+'''mermaid
 flowchart TD
     A[スタート] --> B[GitHubでログインボタンをクリック]
     B --> C[GitHub OAuth認証]
@@ -17,7 +17,7 @@ flowchart TD
     H --> I[ログインアウトボタンを押しサインアウト]
     I --> J[終了]
     E --> J
-
+'''
 
 
 
