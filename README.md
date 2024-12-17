@@ -3,8 +3,7 @@
 現代のDM機能のような、ほかの人との対話ができるものを想定とする。
 Next.jsとSupabaseを使用し、Dockerによる環境構築を行う
 
-
-
+```mermaid
 graph TD
     A[スタート] --> B[GitHubでログインボタンをクリック]
     B --> C[GitHub OAuth認証]
@@ -16,7 +15,7 @@ graph TD
     H --> I[ログインアウトボタンを押しサインアウト]
     I --> J[終了]
     E --> J
-
+````
 
 
 
