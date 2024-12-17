@@ -5,7 +5,7 @@ Next.jsとSupabaseを使用し、Dockerによる環境構築を行う
 
 ```mermaid
 graph TD
-    A[スタート] --> B[GitHubでログインボタンをクリック]
+    A[スタート] --> B[ログインボタンをクリック]
     B --> C[GitHub OAuth認証]
     C -->|ログイン成功| D[メッセージ投稿ページを表示]
     C -->|ログイン失敗| E[エラーメッセージを表示]
